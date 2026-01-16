@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+bd162f8603c2412236ce1bd0aec53293 CMakeFiles/MetalShaders
+1d35a2afd63401b3191644a4a8da0ed9 add3_kernel.air
+f71620500f3af70956763d0f641335cc default.metallib
