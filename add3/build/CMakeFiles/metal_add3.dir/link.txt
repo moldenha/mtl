@@ -1,1 +1,0 @@
-/usr/bin/c++  -arch arm64 -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/metal_add3.dir/src/main.cpp.o CMakeFiles/metal_add3.dir/src/memory/mtl_devices.cpp.o CMakeFiles/metal_add3.dir/src/utils/mtl_utils.cpp.o -o metal_add3  -framework Metal -framework Foundation -framework QuartzCore

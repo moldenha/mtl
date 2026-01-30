@@ -1,4 +1,0 @@
-/Users/sam/Projects/mtl/add3/build/CMakeFiles/MetalShaders.dir
-/Users/sam/Projects/mtl/add3/build/CMakeFiles/metal_add3.dir
-/Users/sam/Projects/mtl/add3/build/CMakeFiles/edit_cache.dir
-/Users/sam/Projects/mtl/add3/build/CMakeFiles/rebuild_cache.dir
