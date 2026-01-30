@@ -16,6 +16,7 @@ int main(){
 
     //Data
     const uint32_t N = 8;
+    std::cout << "N is " << N << std::endl;
     std::vector<float> input(N);
     for(uint32_t i = 0; i < N; ++i) input[i] = static_cast<float>(i);
 
@@ -56,6 +57,7 @@ int main(){
     commandBuffer->waitUntilCompleted();
 
     // Read results
+    std::cout << "N is " << N << std::endl;
     float* outData = static_cast<float*>(outBuffer->contents());
     for (int i = 0; i < N; ++i)
         std::cout << "output[" << i << "] = " << outData[i] << std::endl;

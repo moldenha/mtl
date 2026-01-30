@@ -15,6 +15,15 @@ find_library(METAL_LIBRARY Metal)
 find_library(FOUNDATION_LIBRARY Foundation)
 find_library(QUARTZCORE_LIBRARY QuartzCore)
 
+# find_program(METAL_COMPILER metal)
+
+# if (NOT METAL_COMPILER)
+#     message(FATAL_ERROR
+#         "Metal compiler not found.
+#         Please install Xcode and run:
+#         sudo xcode-select --switch /Applications/Xcode.app")
+# endif()
+
 # # Metal cpp library (linker)
 # target_link_libraries(METAL_CPP
 #         "-framework Metal"

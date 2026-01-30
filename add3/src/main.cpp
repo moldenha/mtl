@@ -148,7 +148,7 @@ int blocked_add3_function(){
     int64_t num_indices = 5;
     std::vector<float> vec(num_elements);
     for(int64_t i = 0; i < num_elements; ++i){vec[i] = static_cast<float>(i);}
-    std::vector<std::complex<int64_t>> blocks = {{1, 3}, {5, 9}, {11, 12}, {19, 25}, {15, 17}};
+    std::vector<std::complex<int64_t>> blocks = {{1, 3}, {11, 14}, {5, 9}, {19, 25}, {15, 17}};
 
     //transfering them to shared devices for simplicity
     //it was already shown above how to transfer from shared to private GPU
